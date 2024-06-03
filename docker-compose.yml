@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  python:
+    image: python
+    build:
+      context: ./pyenv
+    container_name: python3-10
+    tty: true
+    volumes:
+      - ./pyenv/workspace:/root/workspace
+    working_dir: /workspace
+    ports:
+      - 8888:8888
+# 参考：<https://di-acc2.com/system/27775/#index_id1>

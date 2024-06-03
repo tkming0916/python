@@ -1,0 +1,7 @@
+ipykernel
+numpy
+pandas
+matplotlib
+japanize-matplotlib
+scikit-learn
+tensorflow
